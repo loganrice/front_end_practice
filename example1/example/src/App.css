@@ -1,0 +1,88 @@
+.header nav {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 74px;
+}
+
+.header-title {
+  font-size: 20px;
+  font-family: "Droid Sans",Arial,sans-serif;
+  padding: 10px 0 30px 20px;
+}
+
+.header-title a, .header-title a:hover, 
+.header-title a:visited {
+ text-transform: uppercase;
+ color: #000;
+ text-decoration: none;
+ font-size: 16px;
+}
+
+
+
+.header-title em {
+  color: #00B906;
+  margin-left: 5px;
+}
+
+.nav {
+  list-style-type: none;
+  float: right;
+}
+
+.nav-container {
+  height: 100%;
+  max-width: 917px;
+  padding-top: 20px;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.5s ease;
+  font-family: "Droid Sans", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.nav-link:active, .nav-link:hover, .nav-link:focus {
+  background: none !important;
+  color: #00B906;
+}
+.nav-link--active {
+  color: #00B906;
+}
+
+.content {
+  height: 50px;
+  width: 100%;
+  background: grey;
+}
+
+.bars {
+  float: right;
+  padding: 10px 0 30px 20px;
+  margin: 20px;
+  color: #000;
+}
+
+.bars {
+  display: none !important;
+}
+
+@media screen and (max-width: 758px) {
+  .nav {
+    display: none;
+  }
+
+  .bars {
+    display: block !important;
+    float: right;
+    padding: 10px 0 30px 20px;
+    margin: 20px;
+    color: #000;
+  }
+}
